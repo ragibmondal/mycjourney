@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+  int a;
+  printf("enter your number(1-100):\n");
+  scanf("%d", &a);
+  a>=36 && a<=100 ? printf("You are passed"): printf("Failed");
+
+  return 0;
+}
