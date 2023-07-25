@@ -1,0 +1,23 @@
+
+int main(){
+  int a;
+  printf("enter your number(1-100):\n");
+  scanf("%d", &a);
+
+  if (a>=36){
+  printf("You Passed\n");
+  if(a>=36 && a<=49){
+  printf("You got 3\n");
+  }
+  if (a>=50 && a<=69){
+    printf("You  got 4");
+  }
+  if(a>=70 && a<=100){
+    printf("you  got 5");
+  }
+  }
+  else{
+  printf("You are failed\n");
+  }
+  return 0;||||
+}
