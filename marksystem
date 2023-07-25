@@ -1,0 +1,18 @@
+int main(){
+  int marks;
+  printf("enter your marks(1-100):\n");
+  scanf("%d", &marks);
+  if (marks < 30){
+    printf("C\n");
+  }
+  else if (marks>=30 && marks<=70){
+    printf("A\n");
+  }
+  else if (marks>=71 && marks<=100){
+    printf("A+\n");
+  }
+  else{
+    printf("invaild marks");
+  }
+  return 0;
+}
